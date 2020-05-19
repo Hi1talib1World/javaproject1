@@ -1,14 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-package com.denzo.javaproject1;
 
+package com.denzo.javaproject1;
 /**
  *
  * @author admin
  */
-public class main {
-    
+public class main extends user {
+    public void launch(){
+        System.out.println("The sum of the given numbers:");
+
+}
 }
