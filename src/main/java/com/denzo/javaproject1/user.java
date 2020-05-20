@@ -9,14 +9,20 @@ package com.denzo.javaproject1;
  *
  * @author admin
  */
-public class user {
+public class user extends data{
 
-int x = 2020;
+
 int z = 1996;
-int y;
-public void addition(int x, int z) {
-      y = x + z;
-      System.out.println("The sum of the given numbers:"+y);
-   }
+int y= x + z;
+
+    public void addition() {
+        if(y > 6000){
+            System.out.println("The sum of the given numbers:"+y);
+        }else if(y < 6000) {
+            System.out.println("OPPPS !!!");
+        }
+        
+    }
+
 
 }
